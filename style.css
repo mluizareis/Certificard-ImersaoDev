@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+
+body {
+ background: linear-gradient(236.85deg, #041832 27.26%, #3468A7 96.03%);
+}
+
+.container {
+  background-color: #F7F7F7;
+  margin: 35px;
+  border-radius: 20px;
+  font-family: 'Abel', sans-serif;
+  box-shadow: 6px 6px 6px #0E1D2F;
+  padding: 40px;
+}
+
+.profilepic{
+  border-radius: 400px;
+  height: 170px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+  padding: 35px;
+}
+
+.title {
+  margin-left: 50px;
+  font-weight: 600px;
+  font-size: 50px;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+.subtitle {
+  margin-left: 50px;
+  font-weight: 400px;
+  font-size: 30px;
+}
+
+.tema button {
+  position: absolute;
+  align-self: flex-end;
+  right: 80px;
+  top: 100px;
+  font-size: 15px;
+  padding: 6px 12px;
+  border-radius: 15px;
+  background-color: #F7F7F7;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+  border-radius: 15px;
+  padding: 60px 80px 60px 80px;
+  margin-top: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos-title {
+  list-style: none;
+  font-size: 28px;
+  font-weight: 600;
+  margin-botton: 15px;
+  align-items: left;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  margin-left: 0px;
+}
+
+.projetos-item a {
+  color: #1C1C1C;
+  text-decoration: none;
+}
+.codepen {
+  border-radius: 20px;
+  height: 250px; 
+  box-sizing: border-box; 
+  align-items: left; 
+  justify-content: left; 
+  border: 2px solid; 
+  margin-botton: 40px; 
+  padding: 20px;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);  
+}
+
+.dark .container {
+  background: #333439;
+}
+  
+.dark .title {
+  color: lightgray;
+}
+
+.dark .subtitle {
+  color: lightgray;
+}
+
+.dark .tema button {
+  background: #333439;
+  color: lightgray;
+  border: 1px solid lightgray;
+}
